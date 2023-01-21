@@ -1,0 +1,88 @@
+id: I78ACB8B3
+ocr_import_info:
+  bdrc_scan_id: W3CN3026
+  source: bdrc
+  ocr_info:
+    timestamp: '2022-08-25T00:00:00Z'
+  batch_id: batch-0001
+  software_id: norbuketaka
+  expected_default_language: bo
+  op_import_options: null
+default_language: bo
+source: https://library.bdrc.io
+initial_creation_type: ocr
+imported: 2023-01-21 16:41:14.784651
+last_modified: 2022-08-25 00:00:00+00:00
+parser: https://github.com/OpenPecha/Norbu-Keta-eText-import/blob/main/norbu_ketaka_parser.py
+source_metadata:
+  id: http://purl.bdrc.io/resource/W3CN3026
+  status: http://purl.bdrc.io/admindata/StatusReleased
+  access: http://purl.bdrc.io/admindata/AccessOpen
+  reproduction_of: http://purl.bdrc.io/resource/MW3CN3026
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: སྔ་འགྱུར་རྙིང་མའི་གླེགས་བམ་རིན་པོ་ཆེ།
+  languages:
+  - bo
+bases:
+  I3CN3163:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN3163
+      total_pages: 550
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    base_file: I3CN3163.txt
+    order: 1
+  I3CN3162:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN3162
+      total_pages: 636
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    base_file: I3CN3162.txt
+    order: 2
+  I3CN3160:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN3160
+      total_pages: 568
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    base_file: I3CN3160.txt
+    order: 3
+  I3CN3161:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN3161
+      total_pages: 426
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    base_file: I3CN3161.txt
+    order: 4
+  I3CN3159:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN3159
+      total_pages: 598
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    base_file: I3CN3159.txt
+    order: 5
+  I3CN3164:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN3164
+      total_pages: 582
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    base_file: I3CN3164.txt
+    order: 6
+  I3CN3158:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN3158
+      total_pages: 542
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    base_file: I3CN3158.txt
+    order: 7
+copyright:
+  status: Public domain
+  notice: The proofread texts are donated by the Norbu Ketaka project led by Queenie
+    Luo (Harvard University), Zhiying Li (Sichuan University) and Leonard van der
+    Kuijp (Harvard University). Correspondence should be directed to  queenieluo@g.harvard.edu
+license: CC0
