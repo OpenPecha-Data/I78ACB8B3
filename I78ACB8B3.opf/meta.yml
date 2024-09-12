@@ -3,7 +3,7 @@ ocr_import_info:
   bdrc_scan_id: W3CN3026
   source: bdrc
   ocr_info:
-    timestamp: '2022-08-25T00:00:00Z'
+    timestamp: '2023-02-01T00:00:00Z'
   batch_id: batch-0001
   software_id: norbuketaka
   expected_default_language: bo
@@ -11,8 +11,8 @@ ocr_import_info:
 default_language: bo
 source: https://library.bdrc.io
 initial_creation_type: ocr
-imported: 2023-01-21 16:41:14.784651
-last_modified: 2022-08-25 00:00:00+00:00
+imported: 2024-09-12 14:13:13.475760
+last_modified: 2023-02-01 00:00:00+00:00
 parser: https://github.com/OpenPecha/Norbu-Keta-eText-import/blob/main/norbu_ketaka_parser.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W3CN3026
@@ -24,21 +24,21 @@ source_metadata:
   languages:
   - bo
 bases:
-  I3CN3163:
+  I3CN3158:
     source_metadata:
-      id: http://purl.bdrc.io/resource/I3CN3163
-      total_pages: 550
-      volume_number: 6
+      id: http://purl.bdrc.io/resource/I3CN3158
+      total_pages: 542
+      volume_number: 1
       volume_pages_bdrc_intro: 2
-    base_file: I3CN3163.txt
+    base_file: I3CN3158.txt
     order: 1
-  I3CN3162:
+  I3CN3159:
     source_metadata:
-      id: http://purl.bdrc.io/resource/I3CN3162
-      total_pages: 636
-      volume_number: 5
+      id: http://purl.bdrc.io/resource/I3CN3159
+      total_pages: 598
+      volume_number: 2
       volume_pages_bdrc_intro: 2
-    base_file: I3CN3162.txt
+    base_file: I3CN3159.txt
     order: 2
   I3CN3160:
     source_metadata:
@@ -56,14 +56,22 @@ bases:
       volume_pages_bdrc_intro: 2
     base_file: I3CN3161.txt
     order: 4
-  I3CN3159:
+  I3CN3162:
     source_metadata:
-      id: http://purl.bdrc.io/resource/I3CN3159
-      total_pages: 598
-      volume_number: 2
+      id: http://purl.bdrc.io/resource/I3CN3162
+      total_pages: 636
+      volume_number: 5
       volume_pages_bdrc_intro: 2
-    base_file: I3CN3159.txt
+    base_file: I3CN3162.txt
     order: 5
+  I3CN3163:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN3163
+      total_pages: 550
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    base_file: I3CN3163.txt
+    order: 6
   I3CN3164:
     source_metadata:
       id: http://purl.bdrc.io/resource/I3CN3164
@@ -71,14 +79,6 @@ bases:
       volume_number: 7
       volume_pages_bdrc_intro: 2
     base_file: I3CN3164.txt
-    order: 6
-  I3CN3158:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I3CN3158
-      total_pages: 542
-      volume_number: 1
-      volume_pages_bdrc_intro: 2
-    base_file: I3CN3158.txt
     order: 7
 copyright:
   status: Public domain
